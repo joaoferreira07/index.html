@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Dados do e-mail
-    $to = "seuemail@dominio.com"; // Substitua pelo seu endereço de e-mail
+    $to = "technology.jvl@gmail.com"; // Substitua pelo seu endereço de e-mail
     $subject = "Nova mensagem do formulário de contato";
     $body = "Nome: $nome\nE-mail: $email\nTelefone: $telefone\n\nMensagem:\n$mensagem";
     $headers = "From: $email";
